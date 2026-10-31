@@ -1,0 +1,13 @@
+新增字体来自作者官方发布原文件，未子集化或修改。完整 OFL 许可分别保留。
+用户选择器 ID 4、5、6；旧 ID 0 至 3 保持原样。
+
+ChillRoundFRegular.ttf
+{Kosugi Maru}{Justfont}{Maoken}{ChillType}
+Copyright(C)2010 MOTOYA CO.,LTD.
+
+XiaolaiSC-Regular.ttf
+Copyright 2020-2024 LXGW (https://github.com/lxgw/kose-font)
+Copyright 2014 Nozomi Seto (https://ja.osdn.net/projects/setofont/)
+
+LXGWMarkerGothic-Regular.ttf
+Copyright 2021-2026 The LXGW Marker Gothic Project Authors (https://github.com/lxgw/LxgwMarkerGothic)

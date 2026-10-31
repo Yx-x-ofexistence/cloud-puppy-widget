@@ -1,0 +1,8 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/card" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:contentDescription="云朵小卡"/>
+    <LinearLayout android:id="@+id/clock_group" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="18dp">
+        <TextClock android:id="@+id/clock" android:layout_width="match_parent" android:layout_height="wrap_content" android:format12Hour="HH:mm" android:format24Hour="HH:mm" android:textSize="34sp" android:textStyle="bold" android:fontFamily="sans-serif" android:includeFontPadding="false" android:maxLines="1"/>
+        <TextClock android:id="@+id/date" android:layout_width="match_parent" android:layout_height="wrap_content" android:format12Hour="M月d日 EEEE" android:format24Hour="M月d日 EEEE" android:textSize="13sp" android:includeFontPadding="false" android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/hits" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" />
+</FrameLayout>

@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "id": "cloud-originals",
+  "name": "云朵原创贴纸",
+  "author": "熙 · 内置 ImageGen",
+  "version": "1.0.0",
+  "assets": [
+    {
+      "id": "cream-read",
+      "name": "读书狗狗",
+      "category": "dog",
+      "file": "cream-read.png"
+    },
+    {
+      "id": "cream-heart",
+      "name": "抱心狗狗",
+      "category": "dog",
+      "file": "cream-heart.png"
+    },
+    {
+      "id": "cream-memo",
+      "name": "举牌狗狗",
+      "category": "dog",
+      "file": "cream-memo.png"
+    },
+    {
+      "id": "cream-wave",
+      "name": "挥手狗狗",
+      "category": "dog",
+      "file": "cream-wave.png"
+    },
+    {
+      "id": "cream-sleep",
+      "name": "枕头睡狗",
+      "category": "dog",
+      "file": "cream-sleep.png"
+    },
+    {
+      "id": "cream-cheer",
+      "name": "加油狗狗",
+      "category": "dog",
+      "file": "cream-cheer.png"
+    },
+    {
+      "id": "cream-books",
+      "name": "粉色书堆",
+      "category": "accessory",
+      "file": "cream-books.png"
+    },
+    {
+      "id": "cream-paws",
+      "name": "粉色爪印",
+      "category": "accessory",
+      "file": "cream-paws.png"
+    },
+    {
+      "id": "cream-pencil",
+      "name": "粉色铅笔",
+      "category": "accessory",
+      "file": "cream-pencil.png"
+    },
+    {
+      "id": "cream-paper",
+      "name": "花边便签",
+      "category": "paper",
+      "file": "cream-paper.png"
+    },
+    {
+      "id": "cream-flowers",
+      "name": "花束蝴蝶结",
+      "category": "accessory",
+      "file": "cream-flowers.png"
+    },
+    {
+      "id": "cream-stars",
+      "name": "粉色星星",
+      "category": "accessory",
+      "file": "cream-stars.png"
+    },
+    {
+      "id": "cream-clip",
+      "name": "爱心回形针",
+      "category": "accessory",
+      "file": "cream-clip.png"
+    },
+    {
+      "id": "cream-bow",
+      "name": "粉色蝴蝶结",
+      "category": "accessory",
+      "file": "cream-bow.png"
+    },
+    {
+      "id": "cream-cup",
+      "name": "热饮杯",
+      "category": "accessory",
+      "file": "cream-cup.png"
+    },
+    {
+      "id": "cream-label",
+      "name": "花边标签",
+      "category": "paper",
+      "file": "cream-label.png"
+    },
+    {
+      "id": "blue-read",
+      "name": "蓝色读书狗",
+      "category": "dog",
+      "file": "blue-read.png"
+    },
+    {
+      "id": "blue-books-dog",
+      "name": "靠书狗狗",
+      "category": "dog",
+      "file": "blue-books-dog.png"
+    },
+    {
+      "id": "blue-write",
+      "name": "写字狗狗",
+      "category": "dog",
+      "file": "blue-write.png"
+    },
+    {
+      "id": "blue-memo",
+      "name": "蓝色举牌狗",
+      "category": "dog",
+      "file": "blue-memo.png"
+    },
+    {
+      "id": "blue-backpack",
+      "name": "背包狗狗",
+      "category": "dog",
+      "file": "blue-backpack.png"
+    },
+    {
+      "id": "blue-sleep",
+      "name": "趴书睡狗",
+      "category": "dog",
+      "file": "blue-sleep.png"
+    },
+    {
+      "id": "blue-book",
+      "name": "摊开的书",
+      "category": "accessory",
+      "file": "blue-book.png"
+    },
+    {
+      "id": "blue-lamp",
+      "name": "阅读台灯",
+      "category": "accessory",
+      "file": "blue-lamp.png"
+    },
+    {
+      "id": "blue-notebook",
+      "name": "蓝色笔记本",
+      "category": "paper",
+      "file": "blue-notebook.png"
+    },
+    {
+      "id": "blue-tape",
+      "name": "格纹胶带",
+      "category": "accessory",
+      "file": "blue-tape.png"
+    },
+    {
+      "id": "blue-stars",
+      "name": "蓝色星星",
+      "category": "accessory",
+      "file": "blue-stars.png"
+    },
+    {
+      "id": "blue-paws",
+      "name": "蓝色爪印",
+      "category": "accessory",
+      "file": "blue-paws.png"
+    },
+    {
+      "id": "blue-cup",
+      "name": "蓝色茶杯",
+      "category": "accessory",
+      "file": "blue-cup.png"
+    },
+    {
+      "id": "blue-sprig",
+      "name": "蓝色小枝叶",
+      "category": "accessory",
+      "file": "blue-sprig.png"
+    },
+    {
+      "id": "blue-corner",
+      "name": "折角纸",
+      "category": "paper",
+      "file": "blue-corner.png"
+    },
+    {
+      "id": "blue-label",
+      "name": "蓝色花边标签",
+      "category": "paper",
+      "file": "blue-label.png"
+    },
+    {
+      "id": "concept-peek",
+      "name": "粉色探头狗",
+      "category": "dog",
+      "file": "concept-peek.png"
+    },
+    {
+      "id": "concept-sleep",
+      "name": "蓝色趴睡狗",
+      "category": "dog",
+      "file": "concept-sleep.png"
+    }
+  ]
+}

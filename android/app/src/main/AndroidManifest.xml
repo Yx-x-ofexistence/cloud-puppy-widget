@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:name=".CloudApplication" android:roundIcon="@mipmap/ic_launcher" android:label="云朵小卡" android:theme="@style/AppTheme" android:icon="@mipmap/ic_launcher" android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <activity android:name=".EditorActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/></intent-filter>
+        </activity>
+        <activity android:name=".LibraryActivity" android:exported="false" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".WaterAddActivity" android:exported="false" android:theme="@style/WaterDialogTheme" android:label="记录饮水"/>
+        <activity android:name=".BackupActivity" android:exported="false" android:configChanges="orientation|screenSize"/>
+        <receiver android:name=".MiniWidget" android:exported="true" android:label="云朵小卡 · 1×1 素材">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_mini"/>
+        </receiver>
+        <receiver android:name=".SmallWidget" android:exported="true" android:label="云朵小卡 · 2×2">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_small"/>
+        </receiver>
+        <receiver android:name=".WideWidget" android:exported="true" android:label="云朵小卡 · 4×2">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_wide"/>
+        </receiver>
+        <receiver android:name=".PinReceiver" android:exported="false"/>
+        <receiver android:name=".RefreshReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

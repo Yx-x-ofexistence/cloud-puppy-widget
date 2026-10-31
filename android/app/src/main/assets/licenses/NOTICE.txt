@@ -1,0 +1,33 @@
+Cloud Puppy Widget / 云朵小卡 0.3.4-candidate
+Copyright (c) 2026 Yx-x-ofexistence. New project work: MIT License.
+
+Based in part on Material Photo Widget v1.48.1
+Copyright 2023 Filipe Belatti
+Source: https://github.com/fibelatti/photo-widget
+Upstream commit: 68ca1e1059e3005ba7511311dbec9f7ebe4cf632
+Apache License, Version 2.0 (full text included separately).
+
+Modified file Renderer.java ports and changes the PhotoWidgetText.kt
+StaticLayout / textToBitmap approach to Java, using bounded card layout,
+bundled typefaces and a fixed bitmap budget. The independent Android module
+supplies the current editor, countdown, daily check-in and water histories,
+private photo copies, PNG/ZIP image packs, native TextClock and ZIP backups.
+The upstream Compose editor and its runtime dependencies are not bundled.
+Original Apache-2.0 terms and attributions are retained; MIT does not replace them.
+
+Original font files remain under SIL OFL 1.1; full licenses and copyright
+statements are included separately:
+- LXGW WenKai Regular, derived from Klee One by Fontworks.
+- Source Han Sans SC Regular, Adobe.
+- ChillRoundFRegular, MOTOYA and project contributors.
+- XiaolaiSC-Regular, LXGW, derived from SetoFont by Nozomi Seto.
+- LXGWMarkerGothic-Regular, project authors.
+Source Han Serif is no longer bundled; font ID 3 safely falls back to system default.
+
+Puppy and handbook illustrations were generated for this project with OpenAI
+ImageGen and split into optional independent assets. The cloud-hugging puppy
+icon is converted from the project's SVG source to Android native vectors.
+Live time, countdown, editable text, check-in and water state are computed by
+the app or Android rather than baked into the decorative artwork.
+
+UI / interaction design reference: iScreen.

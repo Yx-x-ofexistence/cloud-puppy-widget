@@ -1,0 +1,28 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cn.xi.cloudwidget'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'cn.xi.cloudwidget'
+        minSdk 26
+        targetSdk 35
+        versionCode 7
+        versionName '0.3.4-candidate'
+        testInstrumentationRunner(project.findProperty('runner') ?: 'cn.xi.cloudwidget.PolishChecks')
+    }
+    // The private candidate key is optional and is never published.
+    // Fresh clones use the Android plugin's normal development debug key.
+    def localCandidateKey = file('../../.tools/signing/candidate.jks')
+    signingConfigs {
+        debug {
+            if (localCandidateKey.isFile()) {
+                storeFile localCandidateKey
+                storePassword 'android'
+                keyAlias 'cloudcandidate'
+                keyPassword 'android'
+            }
+        }
+    }
+    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.debug } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">抱住一朵云 · 金毛小狗</title>
+  <desc id="desc">歪着头的金毛幼犬，用两只软软的爪子抱住奶白色云朵。暖杏色毛发、垂耳、粉红脸颊与小舌头，浅粉色圆角背景。全部由可编辑矢量路径绘制。</desc>
+  <defs>
+    <linearGradient id="background" x1="100" y1="20" x2="414" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0E7"/><stop offset="1" stop-color="#EED9DC"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="210" y1="126" x2="275" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE0A0"/><stop offset="1" stop-color="#F5BC6F"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="250" y1="291" x2="250" y2="413" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFEF7"/><stop offset="1" stop-color="#E9EFF0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background-layer">
+    <rect width="512" height="512" rx="116" fill="url(#background)"/>
+    <ellipse cx="251" cy="415" rx="139" ry="18" fill="#CB9A96" opacity=".16"/>
+    <path d="M105 139C111 139 115 135 115 129C115 135 119 139 125 139C119 139 115 143 115 149C115 143 111 139 105 139Z" fill="#FFFDF3"/>
+    <circle cx="404" cy="248" r="5" fill="#FFFDF3"/>
+  </g>
+
+  <g id="puppy" stroke="#77503C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Rounded shoulders and a little wagging tail, behind the pillow. -->
+    <path d="M329 327C364 339 384 323 386 300C402 324 395 350 374 362L324 363Z" fill="#ECAE66"/>
+    <path d="M350 346C369 348 382 335 383 324" stroke="#FAD79A" stroke-width="9"/>
+    <path d="M180 300C185 269 209 254 254 255C302 256 330 279 334 322L321 380H180Z" fill="#F1BB76"/>
+
+    <!-- Head and ears share the tilt, so it reads as a gesture rather than a skewed face. -->
+    <g id="tilted-head" transform="rotate(-9 253 236)">
+      <path d="M177 154C151 149 130 164 118 191C107 215 106 239 112 258L119 255C117 275 126 289 137 293L143 287C148 298 163 298 173 288C189 272 193 251 194 224Z" fill="#DF9D58"/>
+      <path d="M151 178C133 200 127 229 132 251" stroke="#F3BD76" stroke-width="12"/>
+      <path d="M328 156C352 148 374 162 386 188C398 213 399 239 393 258L386 254C388 273 380 287 369 292L362 286C356 297 343 297 334 286C318 268 315 244 315 220Z" fill="#E5A460"/>
+      <path d="M355 179C373 204 378 228 373 248" stroke="#F8C987" stroke-width="12"/>
+
+      <path d="M157 224C153 184 170 157 205 143C204 133 212 123 225 120L223 132C237 115 254 112 265 117L259 130C272 123 285 125 292 132C325 137 347 162 353 194C360 225 355 255 344 270L350 272C344 286 334 293 321 295C305 313 283 321 254 322C221 323 196 315 179 297C164 296 153 287 148 275L156 272C150 261 150 250 152 242L159 246Z" fill="url(#gold)"/>
+      <path d="M186 190C194 166 210 156 229 153" stroke="#FFEDBD" stroke-width="10"/>
+      <path d="M290 150C309 154 324 165 330 180" stroke="#FFEDBD" stroke-width="8"/>
+
+      <!-- Soft cheek patches leave the eyes visually separate from the muzzle. -->
+      <ellipse cx="190" cy="262" rx="19" ry="12" fill="#EC9891" stroke="none" opacity=".78"/>
+      <ellipse cx="320" cy="259" rx="18" ry="11" fill="#EC9891" stroke="none" opacity=".78"/>
+      <path d="M208 269C209 251 227 244 251 253C274 241 296 251 299 269C303 289 283 305 254 306C226 307 205 290 208 269Z" fill="#FFF0CD" stroke="none"/>
+
+      <path d="M201 207Q211 201 222 205" stroke="#BD834E" stroke-width="5"/>
+      <path d="M283 202Q295 197 306 204" stroke="#BD834E" stroke-width="5"/>
+      <g id="eyes" stroke="none">
+        <ellipse cx="214" cy="230" rx="13.5" ry="18" fill="#543E32"/>
+        <ellipse cx="294" cy="227" rx="13" ry="17" fill="#543E32"/>
+        <ellipse cx="215" cy="237" rx="8" ry="7" fill="#946348"/>
+        <ellipse cx="295" cy="234" rx="7.5" ry="6.5" fill="#946348"/>
+        <circle cx="210" cy="224" r="5" fill="#FFFEF6"/>
+        <circle cx="290" cy="221" r="4.7" fill="#FFFEF6"/>
+        <circle cx="219" cy="233" r="2.1" fill="#FFF3D8"/>
+        <circle cx="299" cy="230" r="2" fill="#FFF3D8"/>
+      </g>
+      <path d="M242 259C245 253 263 251 268 257C272 263 260 272 255 273C249 273 238 265 242 259Z" fill="#634334" stroke="none"/>
+      <path d="M247 258Q253 256 258 257" stroke="#B38768" stroke-width="3"/>
+      <path d="M240 283Q256 299 273 280C275 300 267 311 257 310C247 310 241 299 240 283Z" fill="#E9999A" stroke-width="4.5"/>
+      <path d="M257 296L258 302" stroke="#C2767D" stroke-width="3"/>
+      <path d="M255 273C255 282 246 286 236 280M255 273C257 282 267 284 276 278" stroke-width="4.5"/>
+    </g>
+  </g>
+
+  <g id="cloud-pillow">
+    <path d="M146 333C130 307 145 284 168 282C187 280 199 288 204 302C213 278 232 271 252 276C269 280 278 291 281 307C295 291 316 294 328 308C353 297 375 308 378 329C400 332 411 347 407 365C404 381 393 389 379 390C373 409 350 418 333 408C316 423 293 422 278 410C261 423 239 422 226 410C207 423 182 419 172 404C150 410 129 400 126 382C105 379 98 361 109 346C118 335 130 332 146 333Z" fill="url(#cloud)" stroke="#7C7370" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M130 374C141 383 156 385 172 381C181 399 205 403 224 392C238 408 263 408 278 393C293 407 318 406 333 392C347 403 365 396 371 383C384 384 395 377 400 368C392 388 385 389 379 390C373 409 350 418 333 408C316 423 293 422 278 410C261 423 239 422 226 410C207 423 182 419 172 404C150 410 129 400 126 382Z" fill="#D6E3E6" opacity=".62"/>
+    <path d="M151 310Q157 295 172 299M218 301Q226 287 239 288" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M167 354Q177 346 185 351M323 352Q334 346 344 355" stroke="#C2D0D2" stroke-width="4" stroke-linecap="round"/>
+    <path d="M246 360C244 351 232 349 231 359C230 367 245 375 249 376C253 372 265 362 261 355C257 348 248 352 246 360Z" fill="#DCA0AC"/>
+  </g>
+
+  <!-- Forepaws curl over the cloud edge; the thumb shapes make the hug readable. -->
+  <g id="hugging-paws" stroke="#77503C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M167 288C154 291 151 306 156 320C160 333 174 342 190 339C202 337 213 329 216 319C220 308 211 299 201 302C199 291 185 283 174 287" fill="#F5C680"/>
+    <path d="M172 322L175 329M184 320L187 328" stroke="#B48150" stroke-width="3.5"/>
+    <path d="M163 303Q171 293 181 297" stroke="#FFE7B1" stroke-width="6"/>
+    <path d="M314 301C309 291 296 293 291 303C284 317 293 334 308 341C325 349 342 339 345 326C349 311 337 297 324 298" fill="#F5C680"/>
+    <path d="M311 326L309 334M324 327L322 335" stroke="#B48150" stroke-width="3.5"/>
+    <path d="M321 306Q332 307 335 317" stroke="#FFE7B1" stroke-width="6"/>
+  </g>
+
+  <g id="affection" transform="rotate(15 378 134)">
+    <path d="M378 125C374 112 356 115 358 128C360 140 378 150 380 150C384 146 400 132 395 121C390 111 380 116 378 125Z" fill="#CF8698"/>
+    <path d="M363 125Q363 120 367 120" stroke="#FBE0DC" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
